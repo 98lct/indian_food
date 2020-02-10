@@ -1,0 +1,434 @@
+/*font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+header{
+    background-image: url(../images/header.png);
+    min-height: 600px;
+    position: relative;
+    background-size: 100% 100%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+header nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #dddfdf;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    margin: 0 1em;
+}
+header nav ul li:first-child{
+    margin: 0;
+}
+header nav .action h1{
+    color: #2c3a42;
+    font-family: 'Cookie', cursive;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+header nav .action h3{
+    color: #ad6c12;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+header nav .action button{
+    color:#26363a;
+    background-color:#fff ;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header nav .action {
+    background: #ccc;
+    opacity: 0.8;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3em 5em;
+    font-size: 1.2em;
+}
+.desc{
+    min-height: 300px;
+    background: #2a3b40;
+    padding: 3em 0;
+
+}
+.desc .intro{
+    width: 50%;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 3em;
+}
+.desc .bg{
+    background: #2a3b40 url('../images/desc.png') right no-repeat;
+    background-size: 100% auto;
+}
+.desc .intro h1{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top:3em
+}
+.desc .intro p{
+    margin-top:3.5em;
+    margin-bottom:5em;
+    text-align: justify;
+}
+.component{
+    background-color: #d4d8d9;
+    padding:3em 0;
+}
+.component h1{
+    font-size: 1.3em;
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+margin:1.1em 0
+}
+.component p{
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+
+}
+.listItem{
+    background: url('../images/listItem_bg.png') no-repeat;
+    padding: 4em 0;
+    background-size: cover;
+}
+.listItem .inner{
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 2em 0 0 0
+}
+.listItem .inner h1{
+    font-family: 'Cookie', cursive;
+    color: #304751;
+    font-size: 3em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.listItem .inner h2{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color:#ad6c12;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.listItem .item-outner{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.listItem .item{
+    width: 50%;
+}
+.listItem .item-inner{
+    display: flex;
+    text-align: center;
+}
+.listItem .item-inner h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.listItem .item-inner .content{
+    padding: 3em 3em;
+    color: #304751;
+    width: 50%;
+}
+.listItem .item-inner .content p.price{
+    font-weight: bold;
+}
+.listItem .item-inner img{
+    width: 50%;
+}
+.tradition{
+    background: url('../images/tradition_bg.png');
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 2em 0;
+
+}
+.tradition .inner{
+    width: 60%;
+    margin: 0 auto;
+    color:#2a3b40;
+}
+.tradition .inner h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.tradition .inner p{
+    margin:1.5em 0;
+    text-align: center;
+
+}
+.circle{
+    background-color: #2a3b40;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    border-radius: 50%;
+}
+.tradition .navigation li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #2a3b40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 0 1em;
+}
+.tradition .shape{
+    margin:2.5em 0
+}
+.discover{
+    background: url(../images/discover_bg.png) no-repeat;
+    background-size: 100% auto;
+    padding-top: 15em;
+}
+.discover .inner{
+    background: #d4d5d5;
+    opacity: 0.9;
+    padding: 2em 0;
+}
+.discover h1{
+    font-family: 'Cookie', cursive;
+    color: #304751;
+    text-transform: capitalize;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+.discover h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.discover .content-col h3{
+    color: #304751;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    
+}
+.discover .content-col {
+    display: flex;
+    margin-bottom: 1.1em;
+}
+.discover .content-col div{
+    padding: 1em;
+}
+aside.bg{
+    height: 700px;
+    background: url('../images/aside_bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+.bookhere{
+    height: 500px;
+    background-color: #2a3b40;
+}
+aside.bg2{
+    height: 700px;
+    background: url('../images/aside_bg2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.discover.sd .inner{
+    opacity: unset;
+    padding: 2em 0;
+}
+.discover.sd h2{
+    margin-bottom:1em
+}
+.discover.sd .item .inner{
+    background: #fff;
+    padding: unset;
+
+}
+.discover.sd .item p.date{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #555555;
+}
+.discover.sd .item p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #555555;
+}
+
+.discover.sd .item strong{
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    font-weight: 900;
+}
+.discover.sd .item a.readmore{
+    color: #555555;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 4px solid #ff992b;
+}
+.discover.sd .item a.readmore:hover{
+    text-decoration: none;
+}
+.bookhear{
+    background: #2a3b40;
+    padding: 2em 0;
+}
+.bookhear h1{
+    color: #fff;
+    font-family: 'Cookie', cursive;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+.bookhear label{
+    font-weight: 600;
+    color: #fff;
+}
+.bookhear .form-control , .bookhear .btn-block {
+    width: 80% !important;
+    border-color: white !important;
+    background: #2a3b40 !important;
+    font-weight: bold;
+    color:white !important;
+    border-radius: 0.5rem !important;
+}
+.bookhear .form-control::placeholder{
+    color:white !important;
+}
+.bookhear .btn-block{
+    margin-bottom: .5rem;
+    margin-top: 2em;
+}
+.top-footer{
+    height: auto;
+    background-color: #2a3b40;
+}
+.top-footer .inner{
+    width:70% ;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2.5em 0;
+}
+.top-footer .inner p{
+    color:#fff;
+    margin:1.5em 0;
+    font-family: 'Raleway', sans-serif;
+}
+.top-footer .inner strong{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+
+}
+footer{
+    background: #d4d8d9;
+    padding: 3em 0;
+}
+footer .left h1{
+    font-size: 1.5em;
+}
+footer .right{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul{
+    margin-top: 3em;
+}
+footer .left p{
+    margin-top: 3em;
+}
+footer ul li{
+    list-style: none;
+    font-weight: 500;
+}
+footer .right .about h1{
+    font-size: 1em;
+}
+@media(max-width:992px){
+    body{
+        overflow-x: hidden;
+    }
+    .listItem .item-outner{
+        display: block;
+    }
+    .listItem .item{
+        width: unset;
+    }
+    .listItem .item-inner .content {
+        padding: 1em 1em;
+    }
+    .tradition .inner {
+        width: 95%;
+    }
+    aside.bg,aside.bg2 {
+        height: 300px;
+        background-size: cover;
+    } 
+    .bookhear .form-control, .bookhear .btn-block{
+        width: 100% !important;
+    }
+    .top-footer .inner{
+        width: 85%;
+    }
+    footer p{
+        padding: 1em 0;
+    }
+    .desc .intro{
+        width:100%
+    }
+    .desc{
+        padding:1em 0
+    }
+    header{
+        background-size: cover;
+    }
+    header nav ul {
+        display: block;
+        padding: 2em 0;
+    }
+    header nav ul li{
+        font-size: 1em;
+    }
+    header nav ul >li:first-child{
+        text-align: center;
+        display: block;
+    }
+    .listItem .inner h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    .discover.sd .item .inner {
+        margin-bottom: 1em;
+    }
+    footer .right {
+        justify-content: space-between;
+    }
+    footer .left p,footer ul {
+        margin-top: 1em;
+    }
+    header nav ul > div{
+        text-align: center;
+    }
+}
